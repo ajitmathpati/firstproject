@@ -26,16 +26,20 @@
             margin-left: 750px;
             margin-top: 0px;
             height: 10px;
+
+
         }
 
         h1 {
 
 
-            color: rgb(19, 121, 121);
+            color: rgb(98, 182, 24);
             display: flex;
-            margin-left: 10px;
+            margin-top: 20px;
             font-family: 'Times New Roman', Times, serif;
-
+            margin-left: 10px;
+            background-image: url("");
+            border-radius: 15px 50px;
 
         }
 
@@ -43,9 +47,8 @@
         .navbar {
 
             padding: 0px;
-            margin-top: 30px;
-
-
+            margin-top: 50px;
+            display: flex;
 
         }
 
@@ -56,9 +59,19 @@
             color: rgb(46, 19, 19);
             padding: 10px;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            margin-left: 6px;
+            margin-left: 8px;
             text-decoration: underline;
+         
+            color: chartreuse;
 
+        }
+
+        .image img {
+            width: 200px;
+            height: auto;
+            border-radius: 50%;
+            margin-top: 15px;
+            display: flex;
 
         }
     </style>
@@ -66,7 +79,10 @@
 
 <body>
     <header>
-        <h1>Book My Show</h1>
+        <div class="image">
+            <h1>Book My Show</h1>
+            <img src="dragon.jpg" alt="dragon">
+        </div>
         <div class="content">
 
             <div class="navbar">
@@ -78,7 +94,9 @@
                 <a href="#Login" class="login">login</a>
                 <a href="#sigup" class="sigup">sigup</a>
             </div>
+
         </div>
+
     </header>
 </body>
 
